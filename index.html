@@ -25,7 +25,10 @@
     </header>
     <main class="content">
       <section class="description">
-        <article class="two-columns">
+        <!--Ниже пробовал по вашей рекомендации заменить "div" на "article" но при проверке на валидность на W3C выдает ошибку.
+          Тоже самое и с блоком oakley. Понял что по описанию ошибки нужно расставить заголовки в статье, хотя ниже есть заголовок H2,
+          но ошибка все равно имеет место быть. Поэтому решил вернуть "div" для прохождения валидатора. -->
+        <div class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать
@@ -42,7 +45,7 @@
               Эти же техники применяются на примере обучения в Практикуме.
             </p>
           </div>
-        </article>
+        </div>
       </section>
       <section class="techniques">
         <h2 class="section-title">Техники обучения</h2>
@@ -84,7 +87,7 @@
         </div>
       </section>
       <section class="oakley">
-        <article class="two-columns">
+        <div class="two-columns">
           <h2 class="two-columns__brief">История Барбары Оакли.</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">С детства Барбаре не давалась математика.
@@ -96,7 +99,7 @@
               ясно с первого взгляда.
             </p>
           </div>
-        </article>
+        </div>
       </section>
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
